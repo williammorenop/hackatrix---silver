@@ -24,4 +24,12 @@
         <item>Alimentación</item>
     </string-array>
 
+    <string-array name="serviciosnuevo">
+        <item>Salud</item>
+        <item>Legal</item>
+        <item>Hogar</item>
+        <item>Educación</item>
+        <item>Alimentación</item>
+    </string-array>
+
 </resources>

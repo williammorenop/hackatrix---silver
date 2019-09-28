@@ -25,7 +25,7 @@
         android:id="@+id/servicios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/servicios"
+        android:entries="@array/serviciosnuevo"
         android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,12 +60,12 @@
                     app:srcCompat="@drawable/contenido" />
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/textS1"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="0.7"
                     android:paddingLeft="10dp"
-                    android:text="@string/contenido" />
+                    android:text="Aplicación de la vacuno de la fiebre amarilla en el Hospital Reina Sofía." />
             </LinearLayout>
 
             <LinearLayout
@@ -82,12 +82,12 @@
                     app:srcCompat="@drawable/contenido" />
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/textS2"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="0.7"
                     android:paddingLeft="10dp"
-                    android:text="@string/contenido" />
+                    android:text="Atención especial para imigrantes en la Clínica Colombia." />
             </LinearLayout>
 
             <LinearLayout
@@ -104,12 +104,12 @@
                     app:srcCompat="@drawable/contenido" />
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/textS3"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="0.7"
                     android:paddingLeft="10dp"
-                    android:text="@string/contenido" />
+                    android:text="A partir del 2 de Octubre, descuentos para la vacuna de la fiebre amarilla." />
             </LinearLayout>
 
             <LinearLayout
@@ -125,12 +125,12 @@
                     app:srcCompat="@drawable/contenido" />
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textS4"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="0.7"
                     android:paddingLeft="10dp"
-                    android:text="@string/contenido" />
+                    android:text="Fundación Ayudame brinda servicios de salud especiales para refugiados." />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
