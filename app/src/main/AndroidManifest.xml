@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".LogInActivity"></activity>
         <activity android:name=".CrearPublicacion"></activity>
@@ -18,6 +17,8 @@
         <activity android:name=".PrincipalActivity"></activity>
         <activity android:name=".Registro"></activity>
         <activity android:name=".SplashScreen">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
