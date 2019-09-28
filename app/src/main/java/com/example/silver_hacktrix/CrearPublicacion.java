@@ -2,7 +2,10 @@ package com.example.silver_hacktrix;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
@@ -13,6 +16,7 @@ EditText Titulo;
     EditText lugar;
     EditText descripcion;
     Spinner categoria;
+    Button boton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,5 +27,14 @@ EditText Titulo;
         lugar=findViewById(R.id.Lugar);
         descripcion=findViewById(R.id.Descripcion);
         categoria=findViewById(R.id.Categoria);
+
+        boton = findViewById(R.id.button);
+        boton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ong = new Intent(CrearPublicacion.this, PrincipalActivity.class);
+                startActivity(ong);
+            }
+        });
     }
 }
