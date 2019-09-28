@@ -28,10 +28,6 @@ public class PoolActivity extends AppCompatActivity {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String nivel = (String) spinner.getSelectedItem();
-                Toast.makeText(getBaseContext(), "El item seleccionado es: "+
-                                spinner.getSelectedItemId()+" "+nivel,
-                        Toast.LENGTH_LONG).show();
                 int ids = (int) spinner.getSelectedItemId();
                 if (ids == 0){
                     imagen1.setImageResource(R.drawable.contenido);
@@ -44,6 +40,24 @@ public class PoolActivity extends AppCompatActivity {
                     imagen2.setImageResource(R.drawable.legal);
                     imagen3.setImageResource(R.drawable.legal);
                     imagen4.setImageResource(R.drawable.legal);
+                }
+                else if (ids == 2){
+                    imagen1.setImageResource(R.drawable.hogar);
+                    imagen2.setImageResource(R.drawable.hogar);
+                    imagen3.setImageResource(R.drawable.hogar);
+                    imagen4.setImageResource(R.drawable.hogar);
+                }
+                else if (ids == 3){
+                    imagen1.setImageResource(R.drawable.educacion);
+                    imagen2.setImageResource(R.drawable.educacion);
+                    imagen3.setImageResource(R.drawable.educacion);
+                    imagen4.setImageResource(R.drawable.educacion);
+                }
+                else if (ids == 4){
+                    imagen1.setImageResource(R.drawable.alimentacion);
+                    imagen2.setImageResource(R.drawable.alimentacion);
+                    imagen3.setImageResource(R.drawable.alimentacion);
+                    imagen4.setImageResource(R.drawable.alimentacion);
                 }
             }
             @Override
