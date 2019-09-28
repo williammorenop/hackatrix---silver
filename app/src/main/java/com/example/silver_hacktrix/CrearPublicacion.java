@@ -37,7 +37,7 @@ EditText Titulo;
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ong = new Intent(CrearPublicacion.this, PrincipalActivity.class);
+                Intent ong = new Intent(CrearPublicacion.this, VerPublicacion.class);
                 startActivity(ong);
               }
           });
