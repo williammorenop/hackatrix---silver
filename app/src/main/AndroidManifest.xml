@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
 
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".LogInActivity">
+        <activity android:name=".LogInActivity"></activity>
         <activity android:name=".CrearPublicacion"></activity>
         <activity android:name=".SplashScreen">
 
