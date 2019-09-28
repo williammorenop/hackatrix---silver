@@ -13,8 +13,8 @@
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".LogInActivity"></activity>
         <activity android:name=".CrearPublicacion"></activity>
+        <activity android:name=".PoolActivity"></activity>
         <activity android:name=".SplashScreen">
-        <activity android:name=".PoolActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
