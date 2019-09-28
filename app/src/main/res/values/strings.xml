@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Refugy</string>
+    <string name="contenido">Aqui va el contenido de la publicacion</string>
+    <string-array name="servicios">
+        <item>Salud</item>
+        <item>Legal</item>
+        <item>Hogar</item>
+        <item>Educación</item>
+        <item>Alimentación</item>
+    </string-array>
+
 </resources>
