@@ -1,13 +1,17 @@
 <resources>
     <string name="app_name">Refugy</string>
 
+
     <string name="log_in">Log in</string>
     <string name="nombre">Nombre</string>
     <string name="clave">Clave</string>
     <string name="entrar">Entrar</string>
     <string name="registrate">Registrate</string>
-
     <string-array name="categorias">
+
+    <string name="contenido">Aqui va el contenido de la publicacion</string>
+    <string-array name="servicios">
+
         <item>Salud</item>
         <item>Legal</item>
         <item>Hogar</item>
