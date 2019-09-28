@@ -61,15 +61,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp" />
 
-            <TextView
-                android:id="@+id/textView4"
+            <Button
+                android:id="@+id/BotonU"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:background="@android:color/background_light"
                 android:gravity="center"
-                android:text="Lugar"
-                android:textSize="18sp" />
+                android:text="Seleccionar Lugar"
+                android:textSize="14sp" />
 
             <EditText
                 android:id="@+id/Lugar"
