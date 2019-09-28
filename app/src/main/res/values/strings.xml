@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Refugy</string>
+    <string-array name="categorias">
+        <item>Salud</item>
+        <item>Legal</item>
+        <item>Hogar</item>
+        <item>Educación</item>
+        <item>Alimentación</item>
+    </string-array>
 </resources>

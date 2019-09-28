@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center|center_horizontal"
+    android:layout_margin="8dp"
+
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="?attr/colorButtonNormal"
+    android:orientation="vertical"
+    tools:context=".CrearPublicacion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@android:color/background_light"
+                android:gravity="center"
+                android:text="Crear Publicación"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/agregarImagen"
+                android:layout_width="102dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/anadirimagen"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="center"
+                android:text="Título"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/background_light"
+                android:gravity="center"
+                android:text="Lugar"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Lugar"
+                android:layout_width="410dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="72dp"
+                android:layout_marginRight="72dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@android:color/background_light"
+                android:gravity="center"
+                android:text="Decripción"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Descripcion"
+                android:layout_width="384dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="72dp"
+                android:layout_marginRight="72dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@android:color/background_light"
+                android:gravity="center"
+                android:text="Categoria"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/Categoria"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginTop="8dp"
+                android:entries="@array/categorias"
+                android:background="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="384dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="160dp"
+                android:layout_marginRight="160dp"
+                android:background="@android:color/background_light"
+                android:text="AGREGAR" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
