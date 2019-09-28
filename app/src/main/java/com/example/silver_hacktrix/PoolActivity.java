@@ -2,9 +2,11 @@ package com.example.silver_hacktrix;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -15,6 +17,7 @@ public class PoolActivity extends AppCompatActivity {
     Spinner spinner;
     ImageView imagen1, imagen2, imagen3, imagen4;
     TextView text1, text2, text3, text4;
+    Button botonmas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +33,15 @@ public class PoolActivity extends AppCompatActivity {
         text2 = (TextView) findViewById(R.id.textS2);
         text3 = (TextView) findViewById(R.id.textS3);
         text4 = (TextView) findViewById(R.id.textS4);
+        botonmas = findViewById(R.id.more);
+
+        botonmas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ong = new Intent(PoolActivity.this, VerPublicacion.class);
+                startActivity(ong);
+            }
+        });
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
