@@ -17,9 +17,8 @@
         <activity android:name=".PoolActivity"></activity>
         <activity android:name=".PrincipalActivity"></activity>
         <activity android:name=".Registro"></activity>
-
+        <activity android:name=".VerPublicacion"></activity>
         <activity android:name=".Ubicacion"></activity>
-        <activity android:name=".CrearPublicacion"></activity>
 
         <activity android:name=".SplashScreen">
 
