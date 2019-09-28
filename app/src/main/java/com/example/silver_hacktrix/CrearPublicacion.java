@@ -16,7 +16,11 @@ EditText Titulo;
     EditText lugar;
     EditText descripcion;
     Spinner categoria;
+
     Button boton;
+
+    Button ubicacion;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,12 +32,23 @@ EditText Titulo;
         descripcion=findViewById(R.id.Descripcion);
         categoria=findViewById(R.id.Categoria);
 
+
         boton = findViewById(R.id.button);
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent ong = new Intent(CrearPublicacion.this, PrincipalActivity.class);
                 startActivity(ong);
+              }
+          });
+
+        ubicacion=findViewById(R.id.BotonU);
+
+        ubicacion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(CrearPublicacion.this,Ubicacion.class);
+                startActivity(intent);
             }
         });
     }
