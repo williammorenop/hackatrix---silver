@@ -1,8 +1,18 @@
 <resources>
     <string name="app_name">Refugy</string>
+
     <string name="log_in">Log in</string>
     <string name="nombre">Nombre</string>
     <string name="clave">Clave</string>
     <string name="entrar">Entrar</string>
     <string name="registrate">Registrate</string>
+
+    <string-array name="categorias">
+        <item>Salud</item>
+        <item>Legal</item>
+        <item>Hogar</item>
+        <item>Educación</item>
+        <item>Alimentación</item>
+    </string-array>
+
 </resources>
