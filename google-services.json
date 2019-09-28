@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "92978586115",
+    "firebase_url": "https://refugy-492f9.firebaseio.com",
+    "project_id": "refugy-492f9",
+    "storage_bucket": "refugy-492f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92978586115:android:a0cf67649ea65d38b46436",
+        "android_client_info": {
+          "package_name": "com.example.silver_hacktrix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92978586115-cts1k1ru1123tds45mrh83i3ta7aahhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfJwvvHm9-U_stIOKvxlIFmuPCCelGPHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92978586115-cts1k1ru1123tds45mrh83i3ta7aahhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
